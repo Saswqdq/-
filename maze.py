@@ -1,4 +1,3 @@
-#создай игру "Лабиринт"!
 from pygame import *
 font.init()
 mixer.init()
@@ -119,8 +118,6 @@ w5 = Wall(LIGHT_GREEN, 10, 360, 450, 130)
 w6 = Wall(LIGHT_GREEN, 10, 350, 300, 20)
 w7 = Wall(LIGHT_GREEN, 130, 10, 390, 120)
 walls = [w1,w2,w3,w4,w5,w6,w7]
-
-#обработай событие «клик по кнопке "Закрыть окно"»
 
 game = True
 while game:
